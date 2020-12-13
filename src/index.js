@@ -7,8 +7,10 @@ import './animate.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './img/icons/css/ionicons.css';
 import './img/font-awesome/css/font-awesome.css';
-import 'lightbox2/dist/css/lightbox.min.css'
-import './style.css';
+import 'lightbox2/dist/css/lightbox.min.css';
+import './style.scss';
+import 'fontsource-roboto';
+import 'fontsource-roboto-condensed';
 
 //import js libraries
 import 'jquery/dist/jquery.min.js';
@@ -28,19 +30,18 @@ import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 
-
-
 ReactDOM.render(
-    <React.Fragment>
-        <Navbar />
-        <Intro />
-        <About />
-        <Portfolio />
-        <Contact />
-        <BackToTop />
-        <Preloader />
-    </React.Fragment>,
-document.getElementById('root'));
+  <React.Fragment>
+    <Navbar />
+    <Intro />
+    <About />
+    <Portfolio />
+    <Contact />
+    <BackToTop />
+    <Preloader />
+  </React.Fragment>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

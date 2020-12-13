@@ -1,27 +1,26 @@
 import React from "react";
-import "./stars.scss";
 import Typed from "react-typed";
+import Particles from "./particles";
 
 class Intro extends React.Component {
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
       <div id="home" className="intro route bg-image background">
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
+        <Particles />
 
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I am Jeff Graham</h1>
+              <h1 className="intro-title mb-4">Hello, I am Jeffery L. Graham</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Full Stack Developer",
-                      "React-Native App Developer",
+                      "Front End Developer",
+                      "Back End Developer",
+                      "Mobile App Developer",
                       "Software Engineer"
                     ]}
                     typeSpeed={80}

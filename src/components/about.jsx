@@ -5,32 +5,37 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", percentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", percentage: "75%", value: "75" },
+        { id: "HTML5_skill", content: "HTML5", percentage: "90%", value: "90" },
+        { id: "CSS3_skill", content: "CSS3", percentage: "90%", value: "90" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
           percentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", percentage: "70%", value: "70" },
         {
-          id: "ReactJS_skill",
-          content: "ReactJS",
+          id: "React_skill",
+          content: "React",
           percentage: "80%",
           value: "80"
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          percentage: "75%",
-          value: "75"
+          id: "ReactNative_skill",
+          content: "React-Native",
+          percentage: "80%",
+          value: "80"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          percentage: "85%",
-          value: "85"
+          id: "NodeJS_skill",
+          content: "Node.js",
+          percentage: "80%",
+          value: "80"
+        },
+        {
+          id: "Java_skill",
+          content: "Java",
+          percentage: "75%",
+          value: "75"
         },
         {
           id: "Wordpress_skill",
@@ -43,18 +48,13 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Goal-oriented web developer with strong commitment to collaboration and solutions-oriented problem solving. Experienced in HTML, CSS, Bootstrap, JavaScript, React, React-Native, Node.js as well as WordPress. Uses various web design packages to develop custom-crafted, user-focused websites and applications. Committed to high standards of user experience, usability, speed and security. "
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Professional strengths include creative problem-solving, written, and verbal communication, and time management with a serviceoriented mindset from previous experience in the education industry and military."
         },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
       ]
     };
   }
